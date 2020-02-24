@@ -19,11 +19,11 @@ function rndmdeg() {
 }
 
 //cube.addEventListener("click",setImg);
-function setImg() {
-  cuide = document.getElementsByClassName("cuide");
-  for (let i = 0; i < cuide.length; i++) {
-    cuide[i].innerHTML =
-      '<img src="https://miniprogram.000webhostapp.com/tenor(5).gif" alt="😇"/>';
-  }
-  cube.removeEventListener("click", setImg);
-}
+// function setImg() {
+//   cuide = document.getElementsByClassName("cuide");
+//   for (let i = 0; i < cuide.length; i++) {
+//     cuide[i].innerHTML =
+//       '<img src="https://miniprogram.000webhostapp.com/tenor(5).gif" alt="😇"/>';
+//   }
+//   cube.removeEventListener("click", setImg);
+// }
