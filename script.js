@@ -18,11 +18,11 @@ function rndmdeg() {
   return x + "deg";
 }
 
-cube.addEventListener("click", setImg);
+document.addEventListener("click", setImg);
 function setImg() {
   cuide = document.getElementsByClassName("cuide");
   for (let i = 0; i < cuide.length; i++) {
     cuide[i].innerHTML = '<img src="" alt="❤️"/>';
   }
-  cube.removeEventListener("click", setImg);
+  document.removeEventListener("click", setImg);
 }
